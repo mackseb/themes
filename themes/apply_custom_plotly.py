@@ -1,6 +1,16 @@
 import plotly.graph_objects as go
 import plotly.io as pio
 
+
+# Usage
+"""
+import httpimport
+with httpimport.github_repo('mackseb', 'themes', branch = 'master'):
+    from themes.apply_custom_plotly import set_template
+
+set_template()
+"""
+
 def set_template():
 
     my_layout = {
