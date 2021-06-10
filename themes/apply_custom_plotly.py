@@ -1,7 +1,7 @@
-def set_template():
+import plotly.graph_objects as go
+import plotly.io as pio
 
-    import plotly.graph_objects as go
-    import plotly.io as pio
+def set_template():
 
     my_layout = {
         'annotationdefaults': {'arrowcolor': '#2a3f5f', 'arrowhead': 0, 'arrowwidth': 1},
