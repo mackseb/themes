@@ -52,7 +52,7 @@ def set_template():
         'hoverlabel': {'align': 'left'},
         'hovermode': 'closest',
         'mapbox': {'style': 'light'},
-        'paper_bgcolor': 'black',
+        'paper_bgcolor': 'yellow',
         'plot_bgcolor': 'white',
         'polar': {'angularaxis': {'gridcolor': '#EBF0F8', 'linecolor': '#EBF0F8', 'ticks': ''},
                   'bgcolor': 'white',
